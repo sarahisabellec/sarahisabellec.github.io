@@ -1,0 +1,226 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #f2eee6;
+	color: #8c8f8e;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* MENU FLUTUANTE */
+@media screen and (min-width: 600px){
+	nav li{
+		position: relative;
+		width: 150px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+		display: inline-block;
+	 	margin-right: -4px;
+	 	font-family: 'Montserrat', sans-serif;
+	 	left: 50%;
+		transform: translate(-463.5%, 0);
+	}
+}
+
+nav ul {
+	list-style: none;
+	background-color:#8c8f8e;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+nav a{
+	text-decoration: none;
+	color:  #f2eee6;
+	display: block;
+	transition: 1s background-color;
+}
+nav a:hover { 
+	background-color: #7d8180;
+}
+nav a:focus {
+	background-color: #7d8180;
+	color: #f2eee6;
+	cursor: default;
+}
+.menuflutuante{
+	position: fixed;
+	width: 100%;
+	min-width: 600px;
+	z-index: 999;
+ }
+ .menuflutuante2{
+	position: fixed;
+	width: 100%;
+	min-width: 600px;
+	z-index: 999;
+ }
+
+/*PAGINA INICIAL*/
+.bloco1{
+	width: 100%;
+	height: 662px; 
+	margin: auto;
+	background-color: #d3a393;
+}
+.bloco2{
+	width: 100%;
+	height: 662px; 
+	margin: auto;
+	background-color: #d3a393;
+}
+.diagonal{
+  	width: 100%;
+  	height: 100vh;
+  	background: #8c8f8e;
+ 	margin-left: -650px;
+  	transform: skew(-60deg);
+}
+ .imagem{
+ 	position: relative;
+ 	top: -200px;
+ 	left: 50%;
+ 	transform: translate(-53%, -400px);
+    z-index: 900;
+} 
+
+/* PAGINA SOBRE */
+h1#sobre {
+	width: 100%;
+	height: 70px;
+}
+ .imgsarah{
+ 	margin-left: 50px;
+ 	margin-right: 50px;
+ 	float: left;
+ 	border-radius: 50%;
+ }
+ .botao{
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ }
+p{
+	text-align: justify;
+}
+
+/*PAGINA PORTFÓLIO*/
+#portfolio {
+	width: 100%;
+	height: 150px;
+
+	text-align: center;
+}
+.imgp{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/* PAGINA FORMULARIO */ 
+input{
+	height: 20px;
+	width: 400px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	float: center;
+}
+textarea{
+
+	border-radius: 5px;
+	margin-bottom: 10px;
+	float: center;
+}
+
+#enviar{
+	width:50px;
+}
+form{
+
+	width: 500px;
+	text-align: center;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+/* PAGINA DO PORTFOLIO DE FOTOGRAFIA, DESENHOS E PROJETOS */ 
+.mySlides {
+	float: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+ 	top: -200px;
+ 	left: 24%;
+ 	transform: translate(-53%, -400px);
+    z-index: 900;
+    margin-top: 50px;
+}
+.setas {
+	float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    z-index: 900;
+    position: relative;
+ 	top: -200px;
+ 	left: 50%;
+ 	transform: translate(-53%, -400px);
+    z-index: 900;
+    margin-top: 50px;
+}
+
+.mySlides2 {
+	float: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+ 	top: -200px;
+ 	left: 14%;
+ 	transform: translate(-53%, -400px);
+    z-index: 900;
+    margin-top: 50px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-right: -2%;
+    margin-bottom: 5px; 
+}
+
+.column1 {
+    float: left;
+    width: 20%;
+    padding: 5px; 
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.g-images{
+	width: 80%;
+}
+
+.control-g{
+	position: absolute;
+	top: 10%;
+	left: 7%;
+}
+
+.control-g1{
+	position: absolute;
+	top: 22%;
+	left: 26%;
+}
+
+.control-g2{
+	position: absolute;
+	top: 10%;
+	left: 16%;
+}
